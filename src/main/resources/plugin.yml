@@ -1,4 +1,4 @@
 name: firstplugin
-version: '0.1 beta'
+version: '0.2 beta'
 main: org.rabbit.firstplugin.main
 api-version: '1.18'
