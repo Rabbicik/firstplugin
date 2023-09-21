@@ -6,8 +6,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class healCommand implements CommandExecutor {
-    @Override
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
+
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] strings,) {
 
         if (sender instanceof Player) {
             Player player = (Player) sender;
