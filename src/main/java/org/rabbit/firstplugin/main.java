@@ -21,6 +21,7 @@ public final class main extends JavaPlugin  implements Listener {
         System.out.println("----------------------------------------");
         Bukkit.getPluginManager().registerEvents(this, this);
         getCommand("heal").setExecutor(new healCommand());
+        getCommand("feed").setExecutor(new feedCommand());
     }
 
     @EventHandler
