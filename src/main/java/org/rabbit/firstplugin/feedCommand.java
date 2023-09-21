@@ -15,8 +15,7 @@ public class feedCommand implements CommandExecutor {
             Player player = (Player) sender;
             player.sendMessage("Zostałeś nakarmiony");
             player.setFoodLevel(20);
-
-
-        return false;
+        }
+            return false;
+        }
     }
-}
