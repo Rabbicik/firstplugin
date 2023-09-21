@@ -20,14 +20,7 @@ public final class main extends JavaPlugin  implements Listener {
         System.out.println(" Discord: https://discord.gg/BxHchTBFeZ ");
         System.out.println("----------------------------------------");
         Bukkit.getPluginManager().registerEvents(this, this);
-
-    }
-    @EventHandler
-    public void onPlayerMove(PlayerMoveEvent e) {
-
-        e.setCancelled(true);
-        e.getPlayer().sendMessage(ChatColor.RED + "Nie ruszaj się");
-
+        getCommand("heal").setExecutor(new healCommand());
     }
 
     @EventHandler
