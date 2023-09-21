@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 
 public class healCommand implements CommandExecutor {
 
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] strings,) {
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] strings) {
 
         if (sender instanceof Player) {
             Player player = (Player) sender;
