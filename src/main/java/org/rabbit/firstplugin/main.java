@@ -22,6 +22,8 @@ public final class main extends JavaPlugin  implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
         getCommand("heal").setExecutor(new healCommand());
         getCommand("feed").setExecutor(new feedCommand());
+        getCommand("test").setExecutor(new testCommand());
+        getCommand("consola").setExecutor(new consolaCommand());
     }
 
     @EventHandler
