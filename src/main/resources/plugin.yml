@@ -1,7 +1,13 @@
-name: firstplugin_0.2
+name: firstplugin_0.3
 version: '0.2 beta'
 main: org.rabbit.firstplugin.main
 api-version: '1.18'
 commands:
   heal:
+    description: XDD
+  feed:
+    description: XDD
+  consola:
+    description: XDD
+  test:
     description: XDD
